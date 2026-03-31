@@ -20,7 +20,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
+    <div className="min-h-screen bg-[#0b0615] text-white overflow-hidden">
       <Navbar scrolled={scrolled}/>
       <Hero />
       <Features />

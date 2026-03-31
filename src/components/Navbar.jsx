@@ -3,7 +3,10 @@ import { useState } from "react";
 
 export default function Navbar({ scrolled }) {
     const [MobMenu, setMobMenu] = useState(false)
-    return <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-slate-950/80 backdrop-blur-lg border-b border-slate-800" : "bg-slate-950/20 backdrop-blur-sm"}`}>
+    return <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled 
+  ? "bg-purple-950/40 backdrop-blur-lg border-b border-purple-950" 
+  : "bg-purple-950/ backdrop-blur-sm"
+}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
                 <div>
@@ -12,9 +15,9 @@ export default function Navbar({ scrolled }) {
                             src=""
                         />
                     </div> */}
-                    <span className="text-lg sm:text-xl md:text-2xl font-medium">
+                    <span className="text-lg sm:text-xl md:text-3xl font-medium">
                         <span className="text-white">Code</span>
-                        <span className="text-blue-400">X</span>
+                        <span className="text-fuchsia-400">X</span>
                     </span>
                 </div>
 
@@ -54,7 +57,7 @@ export default function Navbar({ scrolled }) {
         </div>
 
         {MobMenu && (
-            <div className="md:hidden bg-slate-900/95 backdrop-blur-lg border-t border-slate-800 animate-in slide-in-from-top duration-300">
+            <div className="md:hidden bg-purple-950/20 backdrop-blur-lg border-t border-purple-900 animate-in slide-in-from-top duration-300">
                 <div className="px-4 py-4 sm:py-6 space-y-3 sm:space-y-4">
                     <a
                         href="#features"

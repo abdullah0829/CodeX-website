@@ -41,10 +41,10 @@ export default function Features() {
                 <div className="text-center mb-12 sm:mb-16 lg:mb-20">
                     <h2 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 ">
                         <span className="bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent">
-                            Your Complete Development
+                            Your Ultimate Development
                         </span>
                         <br />
-                        <span className="bg-gradient-to-b from-blue-400 to-cyan-400 bg-clip-text text-transparent">Workflow</span>
+                        <span className="bg-gradient-to-b from-violet-400 to-purple-400 bg-clip-text text-transparent">Workflow</span>
                     </h2>
                 </div>
 
@@ -54,8 +54,8 @@ export default function Features() {
                             {/* Code Section */}
                             <div className="flex-1 w-full">
                                 <div className="relative group">
-                                    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl sm:rounded-2xl transition-all duration-300" />
-                                    <div className="relative bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-xl sm:rounded-2xl p-4 sm:p-6 overflow-hidden group-hover:border-1 group-hover:border-blue-600/50 transition-all duration-300">
+                                    <div className="absolute inset-0 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl sm:rounded-2xl transition-all duration-300" />
+                                    <div className="relative bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-xl sm:rounded-2xl p-4 sm:p-6 overflow-hidden group-hover:border-1 group-hover:border-purple-600/50 transition-all duration-300">
                                         {/* Ide Interface */}
                                         <div className="bg-gray-950 rounded-lg p-3 sm:p-4 font-mono text-xs sm:text-sm">
                                             <div className="flex items-center space-x-1 sm:space-x-2 mb-3 sm:mb-4">

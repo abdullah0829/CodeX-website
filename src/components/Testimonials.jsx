@@ -41,7 +41,7 @@ export default function Testimonials() {
                                 <div key={key} className="bg-slate-900/50 p-4 sm:p-6 backdrop-blur-sm border border-slate-800 rounded-xl sm:rounded-2xl">
                                     <div className="flex items-start space-x-3 sm:space-x-4">
                                         <div className="flex-shrink-0">
-                                            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                                            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-purple-400 to-purple-400 bg-clip-text text-transparent">
                                                 "
                                             </div>
                                         </div>

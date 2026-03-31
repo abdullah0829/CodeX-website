@@ -23,7 +23,7 @@ export default function Footer() {
             <div className="flex items-center justify-center sm:justify-start space-x-2 mb-3 sm:mb-4">
               <span className="text-lg sm:text-xl font-bold">
                 <span className="text-white">Code</span>
-                <span className="text-blue-400">X</span>
+                <span className="text-fuchsia-400">X</span>
               </span>
             </div>
             <p className="text-gray-400 mb-4 sm:mb-6 max-w-xs mx-auto sm:mx-0 text-sm sm:text-base">
